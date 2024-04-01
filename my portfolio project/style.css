@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.detel {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    transition: bottom 1s, left 1s;
+}
+
+.LOGO img {
+    object-fit: contain;
+    width: 400px;
+    height: 100px;
+}
+
+span {
+    color: orange;
+}
+
+.detel2 {
+    background-image: url('C:/Users/Mitali GHAG/OneDrive/Documents/website/myphoto.jpg');
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.detel2 h1 {
+    font-size: 50px;
+    color: black;
+
+border-bottom: #000 solid 5px;
+padding-bottom: 8px;
+   
+    display: inline;
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.detel2 h3 {
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 8px;
+    width: 50%;
+    position: absolute;
+    left: 50%;transform: translateX(-50%);
+    top: 30%;
+    line-height: 1.4;
+}
+
+
+.detel3{
+    height: 60vh;
+    width: 60%;
+    margin: auto;
+}
+.detel3 h1{text-align: center;
+    font-size: 50px;
+    color: black;
+border-bottom: #000 solid 5px;
+padding-bottom: 8px;
+    
+    margin-top: 50px;}
+
+    * {box-sizing:border-box}
+
+    /* Container for skill bars */
+    .container2 {
+      width: 100%; /* Full width */
+      background-color: #ddd;
+      margin: 20px,0px;
+      /* Grey background */
+    }
+    .skillstext{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .skills {
+      text-align: right; /* Right-align text */
+      padding-top: 10px; /* Add top padding */
+      padding-bottom: 10px; /* Add bottom padding */
+      color: white; /* White text color */
+    }
+    
+    .html {width: 90%; background-color: orange;} /* Green */
+    .css {width: 80%; background-color: orange;} /* Blue */
+    .js {width: 15%; background-color: orange;} /* Red */
+    .php {width: 90%; background-color: orange;} /* Dark Grey */    
+
+.detel4{
+    background-color:beige;
+
+    width: 100%;
+    margin: auto;
+}
+.detel4 h1{ text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 50px;
+    color: black;
+border-bottom: #000 solid 5px;
+padding-bottom: 8px;
+    
+    margin-top: 50px;
+    
+}
+input[type=text],input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  
+  input[type=submit] {
+    background-color: orange;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: orangered;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+  }
+  .footer{
+    height: 15vh;
+  }
